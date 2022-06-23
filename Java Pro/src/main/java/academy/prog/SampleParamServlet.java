@@ -11,8 +11,8 @@ public class SampleParamServlet extends HttpServlet {
 			"<head><title>Prog.kiev.ua</title></head>" +
 			"<body><h1>%s</h1></body></html>";	
 	
-	// GET request: http://localhost:8888/testparam?age=23&position=junior
-	// GET request: http://localhost:8888/testparam?age=20&position=senior
+	// GET request: http://localhost:8080/testparam?age=23&position=junior
+	// GET request: http://localhost:8080/testparam?age=20&position=senior
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		String ageS = req.getParameter("age");
 		String position = req.getParameter("position");

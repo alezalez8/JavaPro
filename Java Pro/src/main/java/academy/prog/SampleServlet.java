@@ -13,6 +13,7 @@ public class SampleServlet extends HttpServlet {
 
         PrintWriter pw = resp.getWriter();
         pw.println("<html><head><title>Prog.kiev.ua Test</title></head>");
-        pw.println("<body><h1>Hello, Java Junior :)</h1></body></html>");
+        pw.println("<body><h1>Hello, Java Junior :) <br>" +
+                " You will become middle soon :)</h1></body></html>");
     }
 }
