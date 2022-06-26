@@ -33,5 +33,6 @@ public class SampleParamServlet extends HttpServlet {
 		resp.setContentType("text/html"); // Content-Type: text/html
         PrintWriter pw = resp.getWriter();
         pw.println(String.format(TEMPLATE, msg));
+
 	}
 }
